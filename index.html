@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Aryyaneel's Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Aryyaneel's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#section1">Home</a></li> 
+                    <li><a href="#section2">About</a></li> 
+                    <li><a href="#section3">Skills</a></li> 
+                    <li><a href="#section4">Projects</a></li> 
+                    <li><a href="#section5">Connect with Me</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection" id="section1">
+            <div class="leftsection">
+                Hello! My Name is
+                <div><span class="color">Aryyaneel Saikia</span> </div>
+                <div>and I'm a </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="img12.png" alt="photo" class="pic">
+            </div>
+        </section>
+        <section class="secondsection" id="section2">
+            <div class="about">
+                <div class="title-about">About Me</div>
+                <div class="about-page">
+                    <div class="left-about">
+                    <img src="Untitled design (1).png" alt="imgae2">
+                    </div>
+                    <div class="right-about">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vero ea dolore consequuntur repudiandae maxime, culpa quis quas nisi. Quo ab commodi qui eveniet voluptatem similique veniam! Vitae, doloribus fuga!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-text-gray">
+            Copyright &#169 Aryyaneelsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer'],
+          typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
